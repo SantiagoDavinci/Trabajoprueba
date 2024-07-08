@@ -1,0 +1,307 @@
+.image-caption {
+    font-size: 25px;
+    color: black;
+    margin-top: 5px;
+    text-align: center;  
+}
+
+div a{
+    text-decoration: none;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 3%;
+    background-color: black; 
+    transition: width 0.2s ease-in-out; 
+    opacity: 0; 
+  }
+  
+  .nav-item.dropdown:hover .dropdown-toggle::after {
+    width: 95%; 
+    opacity: 1; 
+  }
+
+.nav-item.dropdown .dropdown-link:hover {  
+    color: orangered;  
+  }
+
+.product-image img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .card {
+    border: 2px solid black; 
+  }
+
+  .card-title{
+    color: black;
+  }
+
+h1{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+
+.card:hover {
+  background-color: black; 
+}
+
+.card-title:hover{
+  color: white;
+}
+
+.list-unstyled li a:hover {  
+  text-decoration: underline;  
+}
+
+.image-container3 {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 80%; 
+  left: 35%; 
+  z-index: 1; 
+}
+
+.text-overlay p {
+  margin: 0; 
+  padding: 5px; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+}
+
+.text-overlay h1{
+  color: wheat;
+  font-size: 60px
+}
+
+.text-overlay p:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.bi-search, .bi-person, .bi-heart, .bi-cart2 {
+  font-size: 1rem; 
+  margin: 5px 15px; 
+  color: black;
+}
+
+.image-caption.texto-imagen {
+  font-size: 20px;
+}
+
+.rebajatachado {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.preciocolor{
+  color: orangered;
+}
+
+.rebajasclase{
+  color: gray;
+}
+
+.carouselmargintop{
+  margin-top: 58px;
+}
+
+/* Esto es del index6*/
+
+h1{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+
+.card:hover {
+  background-color: black; 
+}
+
+.card-title:hover{
+  color: white;
+}
+
+
+.list-unstyled li a:hover {  
+  text-decoration: underline;  
+}
+
+.image-container3 {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 80%; 
+  left: 35%; 
+  z-index: 1; 
+}
+
+.text-overlay p {
+  margin: 0; 
+  padding: 5px; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+}
+
+.text-overlay h1{
+  color: wheat;
+  font-size: 60px
+}
+
+.text-overlay p:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.bi-search, .bi-person, .bi-heart, .bi-cart2 {
+  font-size: 1rem; 
+  margin: 5px 15px; 
+  color: black;
+}
+
+.image-caption.texto-imagen {
+  font-size: 20px;
+}
+
+.rebajatachado {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.preciocolor{
+  color: orangered;
+}
+
+.rebajasclase{
+  color: gray;
+}
+
+.carouselmargintop{
+  margin-top: 58px;
+}
+
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+/* esto es del  index6*/
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav a {
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.article {
+  margin-bottom: 20px;
+}
+
+.article-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.article-header h2 {
+  margin: 0;
+}
+
+.article-body {
+  padding: 10px;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  padding: 20px;
+}
+
+.sidebar widget {
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
